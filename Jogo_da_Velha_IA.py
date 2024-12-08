@@ -240,8 +240,7 @@ while running:
                 reiniciar_jogo()
 
     # Desenhar a tela
-    #screen.fill(BLACK)
-    screen.fill(CREAM)
+    screen.fill(CREAM)  #screen.fill(BLACK)
 
     # Desenhar o botão
     draw_button()
