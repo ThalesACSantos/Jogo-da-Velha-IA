@@ -88,7 +88,7 @@ def get_empty_cells(board):
                 empty_cells.append((i, j))
     return empty_cells
 
-
+# Função que implementa o minimax para encontrar o melhor movimento
 def minimax(board, depth, is_maximizing, player):
     """
     Implementa o algoritmo Minimax para encontrar a melhor jogada.
@@ -136,7 +136,7 @@ def minimax(board, depth, is_maximizing, player):
                     best_val = min(best_val, val)
         return best_val
 
-
+# Função que encontra o melhor movimento
 def find_best_move(board):
     """
     Encontra a melhor jogada para o jogador 'O'.
@@ -192,7 +192,7 @@ def update_score(winner):
         computer_score += 1
     #game_over = False
 
-# Criando o botão de reiniciar (exemplo usando pygame.Rect centralizado))
+# Criando o botão de reiniciar (exemplo usando pygame.Rect centralizado)
 button_width = 100
 button_height = 50
 button_x = (SCREEN_WIDTH - button_width) // 2
@@ -268,7 +268,6 @@ while running:
         reiniciar_jogo()  # Reinicia o jogo após a pausa
 
         #draw_winner_line(board, 'X' if is_winner(board, 'X')) else 'O')
-        #if is_winner(board, 'X'):
     pygame.display.flip()
     pygame.display.update()
 
