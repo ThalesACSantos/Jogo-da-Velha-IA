@@ -161,8 +161,7 @@ def find_best_move(board):
                     best_move = (row, col)
     return best_move
 
-    # Função para desenhar uma linha para indicar a vitória
-
+# Função para desenhar uma linha para indicar a vitória
 def draw_winner_line(board, player):
     """Desenha uma linha para indicar a vitória."""
     for i in range(3):
@@ -194,7 +193,6 @@ def update_score(winner):
     #game_over = False
 
 # Criando o botão de reiniciar (exemplo usando pygame.Rect centralizado))
-
 button_width = 100
 button_height = 50
 button_x = (SCREEN_WIDTH - button_width) // 2
