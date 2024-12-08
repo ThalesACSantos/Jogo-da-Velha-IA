@@ -1,4 +1,3 @@
-# Jogo-da-Velha-IA
 # Jogo da Velha com IA, Python e Pygame
 ![Jogo_da_Velha_IA](Jogo_da_Velha_IA.ico)
 
